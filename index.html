@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Title</title>
+<link rel="icon" href="https://img.icons8.com/flat_round/64/000000/three-stars.png" type="image/png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<base href="/">
+<link href="main.css?39e8fb0f7b580dadf196" rel="stylesheet"></head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark" role="navigation">
+<a class="navbar-brand" href="/">Logo Here</a>
+<button class="navbar-toggler" type="button" ng-click="isNavCollapsed = !isNavCollapsed" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" uib-collapse="isNavCollapsed">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" ng-href="/users">Users</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" ng-href="/login">LogIn</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" ng-href="/registration">SignUp</a>
+</li>
+<li class="nav-item" uib-dropdown class="mb-2">
+<a class="nav-link" href id="simple-dropdown" uib-dropdown-toggle>
+Click
+</a>
+<ul class="dropdown-menu dropdown-menu-right" uib-dropdown-menu aria-labelledby="simple-dropdown">
+<li>
+<a href ng-repeat="choice in items" class="dropdown-item">
+{{choice}}
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+<ng-view></ng-view>
+<div class="jumbotron text-center" style="margin-bottom:0">
+<p>Footer</p>
+</div>
+<script type="text/javascript" src="angular.bundle.js?39e8fb0f7b580dadf196"></script><script type="text/javascript" src="main.bundle.js?39e8fb0f7b580dadf196"></script></body>
+</html>
