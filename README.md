@@ -7,5 +7,5 @@
 <h2>5-Inside the users folder make a file name as index.php.</h2><br>
 <h2>6-Then write the json code like my json code present on my resreq folder and host the folder.</h2><br>
 <h2>7-Now you can access the folder by your website name the your folder name.</h2><br>
-<h2>8-Ex:- http://example.com/api/users/</h2>
+<h2>8-Ex:- http://jitendra.unaux.com/</h2>
 
